@@ -121,6 +121,8 @@ checkpoints/
 outputs/
 output/
 backup/
+demo/demo_image
+demo/demo_svo
 
 # Pytorch
 *.pth
