@@ -120,6 +120,7 @@ data/
 checkpoints/
 outputs/
 output/
+backup/
 
 # Pytorch
 *.pth
