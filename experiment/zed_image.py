@@ -33,10 +33,10 @@ def main():
     #                            weights="/home/kevin/mmdetection/work_dirs/rtmdet-ins_s_1xb4-300e_cow_update_20240603/epoch_300.pth", 
     #                            device='cuda:0',
     #                            show_progress=False)  
-    inferencer = DetInferencer(model="/home/kevin/mmdetection/configs/cow/rtmdet-ins_tiny_1xb4-500e_cow_update_20241017.py",
-                               weights="/home/kevin/mmdetection/work_dirs/rtmdet-ins_tiny_1xb4-500e_cow_update_20241017/epoch_300.pth", 
-                               device='cuda:0',
-                               show_progress=False)  
+    # inferencer = DetInferencer(model="/home/kevin/mmdetection/configs/cow/rtmdet-ins_tiny_1xb4-500e_cow_update_20241017.py",
+    #                            weights="/home/kevin/mmdetection/work_dirs/rtmdet-ins_tiny_1xb4-500e_cow_update_20241017/epoch_300.pth", 
+    #                            device='cuda:0',
+    #                            show_progress=False)  
     # inferencer = DetInferencer(model="/home/kevin/mmdetection/configs/cow/mask-rcnn_r50_fpn_1x_cow_update_1005.py",
     #                            weights="/home/kevin/mmdetection/work_dirs/mask-rcnn_r50_fpn_1x_cow_update_0603/epoch_100.pth", 
     #                            device='cuda:0',
@@ -49,10 +49,10 @@ def main():
     #                            weights="/home/kevin/mmdetection/work_dirs/solo_r50_fpn_1x_cow_update_0602/epoch_150.pth", 
     #                            device='cuda:0',
     #                            show_progress=False)         
-    # inferencer = DetInferencer(model="/home/kevin/mmdetection/configs/cow/yolact_r50_1xb2-150e_cow_update_1005.py",
-    #                            weights="/home/kevin/mmdetection/work_dirs/yolact_r50_1xb2-150e_cow_update_0602/epoch_150.pth", 
-    #                            device='cuda:0',
-    #                            show_progress=False)  
+    inferencer = DetInferencer(model="/home/kevin/mmdetection/configs/cow/yolact_r50_1xb2-150e_cow_update_1005.py",
+                               weights="/home/kevin/mmdetection/work_dirs/yolact_r50_1xb2-150e_cow_update_0602/epoch_150.pth", 
+                               device='cuda:0',
+                               show_progress=False)  
 
     # 读取并处理每一帧
     frame_idx = 0  # 用于命名掩码文件
